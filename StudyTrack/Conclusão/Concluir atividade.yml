@@ -1,0 +1,15 @@
+info:
+  name: Concluir atividade
+  type: http
+
+http:
+  method: PATCH
+  url: http://localhost:3000/atividades/1/concluir
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: true
